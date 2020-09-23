@@ -1,0 +1,44 @@
+/* couleurs pour visualiser les blocks */
+
+nav{
+	background-color: green
+}
+
+form{
+	background-color: lime
+}
+
+h1, h2{
+	background-color: olive
+}
+
+#hebergements{
+	background-color: aqua
+}
+
+aside{
+	background-color: teal
+}
+
+.activites{
+	background-color: purple
+}
+
+footer{
+	background-color: maroon
+}
+
+/* fin des couleurs */
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+#navigation{
+	display: flex;
+}
+
+#available{
+	display: flex;
+}
