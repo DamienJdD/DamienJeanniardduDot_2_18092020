@@ -195,7 +195,7 @@ h3 {
     font-size: 0.9em;
 }
 
-#cartes_a {
+#cards_accomodations {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -276,7 +276,7 @@ aside {
     flex-direction: column;
 }
 
-.txt_p .rating{
+.txt_p .rating {
     justify-content: flex-end;
 }
 
@@ -305,7 +305,7 @@ aside {
     grid-auto-flow: dense;
 }
 
-/* placement des cartes */
+/* placement des cartes activités */
 #activities a:first-child {
     grid-column: 1;
     grid-row: span 8;
