@@ -1,4 +1,49 @@
-.filtre{
+.filter {
     display: flex;
     flex-wrap: nowrap;
+    margin: 10px;
+    min-width: 200px;
+    align-content: space-between;
+}
+
+#filters {
+    flex-wrap: wrap;
+}
+
+aside h3 {
+    font-size: 1em;
+}
+
+.card_popular {
+    flex-direction: column;
+}
+
+.img_p {
+    max-width: 100%;
+}
+
+.img_p img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+header, section {
+    max-width: 100%;
+}
+
+.card_popular {
+    flex-direction: column;
+}
+
+.img_p {
+    max-width: 100%;
+}
+
+.img_p img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#activities a:nth-child(3) img, #activities a:nth-child(5) img {
+    height: 72%;
 }

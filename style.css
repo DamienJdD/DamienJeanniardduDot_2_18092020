@@ -13,6 +13,7 @@ header, section {
     padding: 0 10px;
 }
 
+
 /*header*/
 
 header nav a img {
@@ -71,30 +72,30 @@ header nav ul li:last-child a {
     color: black;
 }
 
-/*filtres*/
-#filtres {
+/*filters*/
+#filters {
     margin-top: 10px;
     display: flex;
     align-items: center;
 }
 
-#filtres > p {
+#filters > p {
     font-weight: bold;
     margin-right: 15px;
 }
 
-.filtre:hover button, .filtre:hover {
+.filter:hover button, .filter:hover {
     background-color: #DEEBFF;
 }
 
-.filtre {
+.filter {
     margin: 0 5px;
     border: 2px solid #F2F2F2;
     border-radius: 40px;
     background-color: white;
 }
 
-.filtre_button {
+.filter_button {
     border: none;
     background-color: white;
     border-radius: 10px;
@@ -159,7 +160,7 @@ button:focus {
     height: 40px;
     width: 40px;
     color: #0065FC;
-    background-color: #F2F2F2;
+    background-color: #DEEBFF;
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
