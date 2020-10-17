@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="normalizer.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 450px)" href="smartphone.css">
 </head>
 
 <body>
@@ -34,10 +35,11 @@
             <i class="fas fa-map-marker-alt"></i>
             <input type="text" name="ville" value="Marseille, France">
             <button class="search_button" type="submit">Rechercher</button>
+            <i class="fas fa-search"></i>
         </div>
 
         <div id="filters">
-            <p>filters</p>
+            <p>Filtres</p>
             <div class="filter">
                 <i class="fas fa-money-bill-wave"></i>
                 <button class="filter_button" type="button">Economique</button>
@@ -80,7 +82,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </div>
             </a>
 
@@ -110,7 +112,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </div>
             </a>
 
@@ -124,8 +126,8 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </div>
             </a>
 
@@ -140,7 +142,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </div>
             </a>
 
@@ -163,14 +165,15 @@
     </div>
 
     <aside>
-        <h3>Les plus populaires</h3>
-        <div id="popular">
+        <div>
+            <h3>Les plus populaires</h3>
+            <i class="fas fa-chart-line"></i>
+        </div>
 
+        <div id="popular">
             <a class="card_popular" href="">
-                <div class="img_p">
-                    <img src="images/hebergements/4_small/3.jpg"></img>
-                </div>
-                <div class="txt_p">
+                <img src="images/hebergements/4_small/3.jpg"></img>
+                <div class="card-content">
                     <p>Hôtel Le soleil du matin</p>
                     <p>Nuit à partir de 128€</p>
                     <div class="rating">
@@ -184,10 +187,8 @@
             </a>
 
             <a class="card_popular" href="">
-                <div class="img_p">
-                    <img src="images/hebergements/4_small/2.jpg"></img>
-                </div>
-                <div class="txt_p">
+                <img src="images/hebergements/4_small/2.jpg"></img>
+                <div class="card-content">
                     <p>Au coeur de l'eau Chambres d'hôtes</p>
                     <p>Nuit à partir de 71€</p>
                     <div class="rating">
@@ -195,16 +196,14 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                 </div>
             </a>
 
             <a class="card_popular" href="">
-                <div class="img_p">
-                    <img src="images/hebergements/4_small/5.jpg"></img>
-                </div>
-                <div class="txt_p">
+                <img src="images/hebergements/4_small/5.jpg"></img>
+                <div class="card-content">
                     <p>Hôtel Tout bleu et Blanc</p>
                     <p>Nuit à partir de 68€</p>
                     <div class="rating">
@@ -212,7 +211,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                 </div>
             </a>
@@ -257,31 +256,29 @@
 </section>
 
 <footer>
-    <div id="footer_content">
-        <div>
-            <p class="p_footer">À propos</p>
-            <ul>
-                <li><a href="">Fonctionnement du site</a></li>
-                <li><a href="">Conditions générales de vente</a></li>
-                <li><a href="">Données et confidentialité</a></li>
-            </ul>
-        </div>
+    <div>
+        <h4>À propos</h4>
+        <ul>
+            <li><a href="">Fonctionnement du site</a></li>
+            <li><a href="">Conditions générales de vente</a></li>
+            <li><a href="">Données et confidentialité</a></li>
+        </ul>
+    </div>
 
-        <div>
-            <p class="p_footer">Nos hébergements</p>
-            <ul>
-                <li><a href="">Charte qualité</a></li>
-                <li><a href="">Soumettre votre hôtel</a></li>
-            </ul>
-        </div>
+    <div>
+        <h4>Nos hébergements</h4>
+        <ul>
+            <li><a href="">Charte qualité</a></li>
+            <li><a href="">Soumettre votre hôtel</a></li>
+        </ul>
+    </div>
 
-        <div>
-            <p class="p_footer">Assistance</p>
-            <ul>
-                <li><a href="">Centre d'aide</a></li>
-                <li><a href="">Nous contacter</a></li>
-            </ul>
-        </div>
+    <div>
+        <h4>Assistance</h4>
+        <ul>
+            <li><a href="">Centre d'aide</a></li>
+            <li><a href="">Nous contacter</a></li>
+        </ul>
     </div>
 </footer>
 </body>
