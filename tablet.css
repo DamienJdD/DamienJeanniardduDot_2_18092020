@@ -20,12 +20,20 @@
 .card_popular {
     flex-direction: column;
     margin: 10px;
+    max-width: 30%;
+    height: 184px;
 }
 
 .card_popular img {
     max-width: 100%;
     width: 100%;
     border-radius: 10px 10px 0 0;
+}
+
+.card-content .rating{
+    justify-content: flex-end;
+    position: absolute;
+    top: 58px;
 }
 
 header, section {
@@ -35,11 +43,6 @@ header, section {
 aside {
     width: 100%;
     margin: 15px 0 15px 0;
-}
-
-.card_popular {
-    flex-direction: column;
-    max-width: 30%;
 }
 
 #acco_pop {
