@@ -6,10 +6,10 @@
     <title>Reservia : trouvez votre hébergement pour des vacances de rêve !</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
           integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <link rel="stylesheet" href="normalizer.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="tablet.css">
-    <link rel="stylesheet" media="screen and (max-width: 450px)" href="smartphone.css">
+    <link href="css/normalizer.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/tablet.css" media="screen and (max-width: 768px)" rel="stylesheet">
+    <link href="css/smartphone.css" media="screen and (max-width: 450px)" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
     <form>
         <div id="searchbar">
             <i class="fas fa-map-marker-alt"></i>
-            <input type="text" name="ville" value="Marseille, France">
+            <input name="ville" type="text" value="Marseille, France">
             <button class="search_button" type="submit">Rechercher</button>
             <i class="fas fa-search"></i>
         </div>
@@ -73,7 +73,7 @@
 
             <a class="card_accomodation" href="">
                 <figure>
-                    <img src="images/hebergements/4_small/7.jpg">
+                    <img alt="Auberge la Cannebière" src="images/hebergements/4_small/7.jpg">
                     <figcaption>Auberge la Cannebière</figcaption>
                 </figure>
                 <p class="price">Nuit à partir de 25€</p>
@@ -88,7 +88,7 @@
 
             <a class="card_accomodation" href="">
                 <figure>
-                    <img src="images/hebergements/4_small/6.jpg">
+                    <img alt="Hôtel du port" src="images/hebergements/4_small/6.jpg">
                     <figcaption>Hôtel du port</figcaption>
                 </figure>
                 <p class="price">Nuit à partir de 52€</p>
@@ -103,7 +103,7 @@
 
             <a class="card_accomodation" href="">
                 <figure>
-                    <img src="images/hebergements/4_small/9.jpg">
+                    <img alt="Hôtel les mouettes" src="images/hebergements/4_small/9.jpg">
                     <figcaption>Hôtel les mouettes</figcaption>
                 </figure>
                 <p class="price">Nuit à partir de 76€</p>
@@ -118,7 +118,7 @@
 
             <a class="card_accomodation" href="">
                 <figure>
-                    <img src="images/hebergements/4_small/1.jpg">
+                    <img alt="Hôtel de la mer" src="images/hebergements/4_small/1.jpg">
                     <figcaption>Hôtel de la mer</figcaption>
                 </figure>
                 <p class="price">Nuit à partir de 46€</p>
@@ -133,7 +133,7 @@
 
             <a class="card_accomodation" href="">
                 <figure>
-                    <img src="images/hebergements/4_small/8.jpg">
+                    <img alt="Auberge le Panier" src="images/hebergements/4_small/8.jpg"/>
                     <figcaption>Auberge le Panier</figcaption>
                 </figure>
                 <p class="price">Nuit à partir de 23€</p>
@@ -148,7 +148,7 @@
 
             <a class="card_accomodation" href="">
                 <figure>
-                    <img class="img_a" src="images/hebergements/4_small/4.jpg">
+                    <img alt="Hôtel chez Amina" class="img_a" src="images/hebergements/4_small/4.jpg">
                     <figcaption>Hôtel chez Amina</figcaption>
                 </figure>
                 <p class="price">Nuit à partir de 96€</p>
@@ -172,7 +172,7 @@
 
         <div id="popular">
             <a class="card_popular" href="">
-                <img src="images/hebergements/4_small/3.jpg"></img>
+                <img alt="Hôtel Le soleil du matin" src="images/hebergements/4_small/3.jpg">
                 <div class="card-content">
                     <p>Hôtel Le soleil du matin</p>
                     <p>Nuit à partir de 128€</p>
@@ -187,7 +187,7 @@
             </a>
 
             <a class="card_popular" href="">
-                <img src="images/hebergements/4_small/2.jpg"></img>
+                <img alt="Au coeur de l'eau Chambres d'hôtes" src="images/hebergements/4_small/2.jpg">
                 <div class="card-content">
                     <p>Au coeur de l'eau Chambres d'hôtes</p>
                     <p>Nuit à partir de 71€</p>
@@ -202,7 +202,7 @@
             </a>
 
             <a class="card_popular" href="">
-                <img src="images/hebergements/4_small/5.jpg"></img>
+                <img alt="Hôtel Tout bleu et blanc" src="images/hebergements/4_small/5.jpg">
                 <div class="card-content">
                     <p>Hôtel Tout bleu et Blanc</p>
                     <p>Nuit à partir de 68€</p>
@@ -224,32 +224,32 @@
     <h3>Activités à Marseille</h3>
     <div id="activities">
         <a href="">
-            <img src="images/activites/2_large/a1.jpg">
+            <img alt="Vieux Port" src="images/activites/2_large/a1.jpg">
             <p>Vieux Port</p>
         </a>
 
         <a href="">
-            <img src="images/activites/2_large/a2.jpg">
+            <img alt="Fort de Pomègues" src="images/activites/2_large/a2.jpg">
             <p>Fort de Pomègues</p>
         </a>
 
         <a href="">
-            <img src="images/activites/2_large/a3.jpg">
+            <img alt="Iles du Frioul" src="images/activites/2_large/a3.jpg">
             <p>Iles du Frioul</p>
         </a>
 
         <a href="">
-            <img src="images/activites/2_large/a4.jpg">
+            <img alt="Parc National des Calanques" src="images/activites/2_large/a4.jpg">
             <p>Parc National des Calanques</p>
         </a>
 
         <a href="">
-            <img src="images/activites/2_large/a5.jpg">
+            <img alt="Notre-Dame-de-la-Garde" src="images/activites/2_large/a5.jpg">
             <p>Notre-Dame-de-la-Garde</p>
         </a>
 
         <a href="">
-            <img src="images/activites/2_large/a6.jpg">
+            <img alt="Parc Longchamp" src="images/activites/2_large/a6.jpg">
             <p>Parc Longchamp</p>
         </a>
     </div>
