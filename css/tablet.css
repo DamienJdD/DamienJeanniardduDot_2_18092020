@@ -31,7 +31,7 @@
     border-radius: 10px 10px 0 0;
 }
 
-.card-content .rating{
+.card-content .rating {
     justify-content: flex-end;
     position: absolute;
     top: 58px;
